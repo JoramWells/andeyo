@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import {UserCircleIcon} from '@heroicons/react/solid'
-
+import Head from "next/head";
+import Link from "next/link";
+import { UserCircleIcon } from "@heroicons/react/solid";
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <Head>
         <title>Home | Andeyo</title>
         <meta name="description" content="Search EngineX" />
@@ -14,24 +14,30 @@ export default function Home() {
         {/* left */}
         <div className="flex space-x-4 items-center">
           <p className="link">Andeyo</p>
-          <p className="link">About</p>
+          <p className="link">
+            <Link href="/about">About</Link>
+          </p>
         </div>
         <div>
-          <input placeholder="Search..." />
+          <form>
+            <input
+              placeholder="Search..."
+              className="border-none focus:border-none"
+            />
+          </form>
         </div>
         {/* right */}
         <div className="flex space-x-4 items-center">
+          <p>
+            <Link href="/contact">Contact us</Link>
+          </p>
           <p className="link">Login</p>
           <p className="link">Register</p>
-          <UserCircleIcon className="h-5" />
+          <UserCircleIcon className="h-5 rounded-full hover:bg-gray-200 text-gray-700 cursor-pointer" />
         </div>
       </header>
 
-      <main >
-        {/* Main */}
-      </main>
-
- 
+      <main>{/* Main */}</main>
     </div>
-  )
+  );
 }
