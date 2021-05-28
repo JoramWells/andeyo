@@ -18,13 +18,13 @@ export default function Home() {
           style={{ height: "500px" }}
         >
           <div>
-            <h1 style={{ fontSize: "2.5rem" }}>
+            <h1 style={{ fontSize: "2.5rem" }} className="text-3xl font-extrabold text-gray-900 p-5">
               The flexible AI-powered <br /> Search & Discovery <br /> Platform
             </h1>
-            <p className="text-gray-700" style={{ fontSize: "1.5rem" }}>
+            <p className="text-gray-700 p-5" style={{ fontSize: "1.5rem" }}>
               Create cutting-edge UX for <br /> web, apps & ecommerce
             </p>
-            <div className="space-x-4 mt-2 text-gray-700">
+            <div className="space-x-4 mt-2 text-gray-700 p-5">
               <button className="btn">Start for free</button>
               <button className="btn">Request Demo</button>
             </div>
@@ -51,7 +51,7 @@ export default function Home() {
             <div>
             <h1
               style={{ fontSize: "2rem" }}
-              className="text-center text-gray-800"
+              className="text-center text-3xl font-extrabold text-gray-900"
             >
               <b>Deliver what your customers want every time</b>{" "}
             </h1>

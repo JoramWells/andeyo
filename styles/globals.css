@@ -8,6 +8,6 @@
     @apply hover:underline cursor-pointer
   }
   .btn{
-    @apply bg-gray-200 rounded-md p-2 ring-gray-200 hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md
+    @apply bg-gray-200 rounded-md p-2  ring-gray-200 hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md
   }
 }

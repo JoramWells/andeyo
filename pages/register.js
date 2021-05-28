@@ -4,17 +4,22 @@ import Navigation from "../components/Navigation";
 import Link from 'next/link'
 import { LockClosedIcon } from "@heroicons/react/solid";
 
-function Login() {
+function Register() {
   return (
     <>
       <Head>
-        <title>Contact | Andeyo</title>
+        <title>Sign Up | Andeyo</title>
       </Head>{" "}
       <Navigation />
       <main>
       <div className="min-h-screen flex justify-center bg-gray-50 py-10 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8 border-gray-500 shadow-md p-2">
-      <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign in to your account</h2>
+      <img
+            className="mx-auto h-12 w-auto"
+            src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+            alt="Workflow"
+          />
+      <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign Up to your account</h2>
           <p className="mt-2 text-center text-sm text-gray-600"></p>
         <form className="mt-8 space-y-6" action="#" method="POST">
           <input type="hidden" name="remember" defaultValue="true" />
@@ -48,34 +53,14 @@ function Login() {
               />
             </div>
           </div>
+          Or{' '}
 
           <div className="flex items-center justify-between">
-            <div className="flex items-center">
-              <input
-                id="remember_me"
-                name="remember_me"
-                type="checkbox"
-                className="h-4 w-4 text-gray-600 focus:ring-gray-500 border-gray-300 rounded"
-              />
-              <label
-                htmlFor="remember_me"
-                className="ml-2 block text-sm text-gray-400"
-              >
-                Remember me
-              </label>
-            </div>
-
-            <div className="text-sm">
-              <a
-                href="#"
-                className="font-medium text-gray-600 hover:text-gray-500"
-              >
-                Forgot your password?
-              </a>
-            </div>
+                <button className="bg-red-500 p-1 rounded-md text-white hover:shadow-md" > <b> G+ google</b> </button>
+                <button className="text-white bg-gray-800 p-1 rounded-md hover:shadow-md"> <b> Github</b> </button>
           </div>
           <div className="link font-small text-sm text-gray-600 hover:text-gray-500">
-            <Link href="/register" >Don't have an account? Sign up.</Link>
+            <Link href="/login" >Already have an account? Sign In.</Link>
           </div>
 
           <div>
@@ -89,7 +74,7 @@ function Login() {
                   aria-hidden="true"
                 />
               </span>
-              Sign in
+              Sign up
             </button>
           </div>
         </form>
@@ -100,4 +85,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Register;
