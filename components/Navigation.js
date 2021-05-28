@@ -38,7 +38,9 @@ export default function Navigation() {
         <p>
           <Link href="/contact">Contact us</Link>
         </p>
-        <p className="link">Register</p>
+        <p className="link">
+          <Link href="/register">Register</Link>
+        </p>
       </div>
     </header>
   );
