@@ -1,5 +1,5 @@
 import React from "react";
-import Head from "next/Head";
+import Head from "next/head";
 import Navigation from "../components/Navigation";
 
 function Contact() {
@@ -7,9 +7,10 @@ function Contact() {
     <>
       <Head>
         <title>Contact | Andeyo</title>
-      </Head>
-      <Navigation />
-      <main></main>
+      </Head>{" "}
+      <Navigation/>
+      <main>
+      </main>
     </>
   );
 }
