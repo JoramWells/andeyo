@@ -22,7 +22,7 @@ export default function Home() {
           <form>
             <input
               placeholder="Search..."
-              className="border-none focus:border-none"
+              className="border-none focus:outline-none"
             />
           </form>
         </div>
