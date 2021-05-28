@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import Head from "next/Head";
+import Navigation from "../components/Navigation";
 
 function Contact() {
-    return (
-        <div>
-            Contact us
-        </div>
-    )
+  return (
+    <>
+      <Head>
+        <title>Contact | Andeyo</title>
+      </Head>
+      <Navigation />
+      <main></main>
+    </>
+  );
 }
 
-export default Contact
+export default Contact;
