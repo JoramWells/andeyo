@@ -1,11 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
+import Footer from "../components/Footer";
 // const search = require('./search.svg')
 import Navigation from "../components/Navigation";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Home | Andeyo</title>
         <meta name="description" content="Search EngineX" />
@@ -99,6 +100,7 @@ export default function Home() {
 
         </div>
       </main>
-    </div>
+      <Footer />
+    </>
   );
 }
