@@ -11,12 +11,12 @@ function classNames(...classes) {
 export default function Navigation() {
   return (
     <>
-      <header className="flex w-full p-5 justify-between text-md text-gray-700 bg-yellow-400">
+      <header className="flex w-full p-5 justify-between text-md text-gray-700 bg-yellow-400 shadow-sm">
         <div className="flex space-x-4 items-center">
           <b className="link">
-            <Link href="/">Andeyo</Link>
+            <Link href="/">ANDEYO</Link>
           </b>
-          <p className="link">
+          <p className="link ">
             <Link href="/documentation">Developers</Link>
           </p>
           <p className="link">
@@ -24,6 +24,9 @@ export default function Navigation() {
           </p>
           <p className="link">
             <Link href="/about">Products</Link>
+          </p>
+          <p className="link">
+            <Link href="/about">Partners</Link>
           </p>
         </div>
         <div>
@@ -41,18 +44,16 @@ export default function Navigation() {
         </div>
         {/* right */}
         <div className="flex space-x-4 items-center ">
-          <p>
-            <Link href="/contact">Contact us</Link>
-          </p>
+ 
           <p className="link">
             <Menu as="div" className="relative inline-block text-left">
               {({ open }) => (
                 <>
                   <div>
-                    <Menu.Button className="inline-flex justify-center w-full  shadow-sm px-4 py-2  text-gray-700  focus:outline-none  focus:ring-offset-gray-100">
+                    <Menu.Button className="inline-flex justify-center w-full  shadow-sm px-4 py-2  text-gray-700  focus:outline-none  ">
                       Register
                       <ChevronDownIcon
-                        className="-mr-1 ml-2 mt-1 h-5 w-5"
+                        className="-mr-1  mt-1 h-5 w-5"
                         aria-hidden="true"
                       />
                     </Menu.Button>

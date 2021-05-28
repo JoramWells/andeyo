@@ -80,36 +80,23 @@ export default function Home() {
         </div>
         <div
           style={{ height: "400px" }}
-          className="bg-yellow-200 h-200 p-3 items-center"
+          className="bg-yellow-200 h-200 p-3 flex flex-row items-center"
         >
-          <div
-            className="flex flex-col justify-center md:max-w-xl"
-            style={{ margin: "auto", display: "block" }}
-          >
-            <div>
-              <h1
+          <div style={{margin:"auto", display:"block"}}>
+          <h1
                 style={{ fontSize: "2rem" }}
                 className="text-center text-3xl font-extrabold text-gray-900"
               >
                 <b>Deliver what your customers want every time</b>{" "}
               </h1>
-              <p className="text-center text-gray-600">
+              <p className="text-center text-gray-600 md:max-w-3xl">
                 Algolia’s search-as-a-service and full suite of APIs allow teams
                 to easily develop tailored, fast Search & Discovery experiences
                 that delight and convert.
               </p>
-              <div className="flex justify-around p-2">
-                <div>
-                  <p>Trusted</p>
-                  +300
-                </div>
-                <div>
-                  <p>Serving</p>
-                  4B
-                </div>
-              </div>
-            </div>
           </div>
+
+
         </div>
       </main>
     </div>
