@@ -15,7 +15,7 @@ export default function Home() {
       <Navigation />
       <main>
         <div
-          className="p-5 flex flex-row space-x-4 "
+          className="p-5 flex flex-row justify-around space-x-4 "
           style={{ height: "500px" }}
         >
           <div>

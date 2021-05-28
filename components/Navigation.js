@@ -11,7 +11,7 @@ function classNames(...classes) {
 export default function Navigation() {
   return (
     <>
-      <header className="flex w-full p-5 justify-between text-md text-gray-700 bg-yellow-400 shadow-sm">
+      <header className="flex w-full p-5 justify-between text-md text-gray-700 bg-yellow-300 shadow-sm">
         <div className="flex space-x-4 items-center">
           <b className="link">
             <Link href="/">ANDEYO</Link>
@@ -44,7 +44,6 @@ export default function Navigation() {
         </div>
         {/* right */}
         <div className="flex space-x-4 items-center ">
- 
           <p className="link">
             <Menu as="div" className="relative inline-block text-left">
               {({ open }) => (
