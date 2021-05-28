@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import {UserCircleIcon} from '@heroicons/react/solid'
+
 
 export default function Home() {
   return (
@@ -8,7 +10,7 @@ export default function Home() {
         <meta name="description" content="Search EngineX" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="flex w-full p-5 justify-between text-md text-gray-700">
+      <header className="flex w-full p-5 justify-between text-md text-gray-700 bg-yellow-400">
         {/* left */}
         <div className="flex space-x-4 items-center">
           <p className="link">Andeyo</p>
@@ -21,6 +23,7 @@ export default function Home() {
         <div className="flex space-x-4 items-center">
           <p className="link">Login</p>
           <p className="link">Register</p>
+          <UserCircleIcon className="h-5" />
         </div>
       </header>
 
