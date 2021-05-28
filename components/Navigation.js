@@ -7,11 +7,17 @@ export default function Navigation() {
   return (
     <header className="flex w-full p-5 justify-between text-md text-gray-700 bg-yellow-400">
       <div className="flex space-x-4 items-center">
-        <p className="link">
+        <b className="link">
           <Link href="/">Andeyo</Link>
+        </b>
+        <p className="link">
+          <Link href="/documentation">Developers</Link>
         </p>
         <p className="link">
-          <Link href="/about">About</Link>
+          <Link href="/about">Pricing</Link>
+        </p>
+        <p className="link">
+          <Link href="/about">Products</Link>
         </p>
       </div>
       <div>
