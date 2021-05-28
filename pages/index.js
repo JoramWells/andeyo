@@ -8,16 +8,19 @@ export default function Home() {
         <meta name="description" content="Search EngineX" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="flex w-full p-5 justify-between text-sm text-gray-700">
+      <header className="flex w-full p-5 justify-between text-md text-gray-700">
         {/* left */}
         <div className="flex space-x-4 items-center">
-          <p>Andeyo</p>
-          <p>About</p>
+          <p className="link">Andeyo</p>
+          <p className="link">About</p>
+        </div>
+        <div>
+          <input placeholder="Search..." />
         </div>
         {/* right */}
         <div className="flex space-x-4 items-center">
-          <p>Login</p>
-          <p>Register</p>
+          <p className="link">Login</p>
+          <p className="link">Register</p>
         </div>
       </header>
 
