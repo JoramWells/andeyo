@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Footer from "../components/Footer";
-// const search = require('./search.svg')
+import search  from './search.svg'
 import Navigation from "../components/Navigation";
 
 export default function Home() {
@@ -36,20 +36,8 @@ export default function Home() {
 
           <div>
             <div>
-              <h1
-                style={{ fontSize: "2.5rem" }}
-                className="text-3xl font-extrabold text-gray-900 p-5"
-              >
-                The flexible AI-powered <br /> Search & Discovery <br />{" "}
-                Platform
-              </h1>
-              <p className="text-gray-700 p-5" style={{ fontSize: "1.5rem" }}>
-                Create cutting-edge UX for <br /> web, apps & ecommerce
-              </p>
-              <div className="space-x-4 mt-2 text-gray-700 p-5">
-                <button className="btn">Start for free</button>
-                <button className="btn">Request Demo</button>
-              </div>
+              <Image alt="search algol" src={search} height={350} width={350}/>
+              
             </div>
           </div>
         </div>
