@@ -8,9 +8,21 @@ export default function Home() {
         <meta name="description" content="Search EngineX" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <header className="flex w-full p-5 justify-between">
+        {/* left */}
+        <div className="flex space-x-4 items-center">
+          <p>Andeyo</p>
+          <p>About</p>
+        </div>
+        {/* right */}
+        <div className="flex space-x-4 items-center">
+          <p>Login</p>
+          <p>Register</p>
+        </div>
+      </header>
 
       <main >
-        Main
+        {/* Main */}
       </main>
 
  
