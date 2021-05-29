@@ -33,13 +33,13 @@ export default function Navigation() {
           <div>
             <form>
               <div className="flex flex-row w-full max-w-md rounded-full bg-yellow-200 items-center p-1 sm:max-w-xl lg:max-w-2xl">
-                <SearchIcon className="h-5 text-gray-500 hover:cursor-pointer m-1" />
+                <SearchIcon className="h-5 text-gray-300 hover:cursor-pointer m-1" />
 
                 <input
                   placeholder="Search..."
                   className="border-none focus:outline-none flex-grow bg-yellow-200 rounded-full p-1 text-sm text-gray-700"
                 />
-                <XIcon className="h-5 text-gray-500 m-1 hover:cursor-pointer" />
+                <XIcon className="h-5 text-gray-300 m-1 hover:cursor-pointer" />
               </div>
             </form>
           </div>
