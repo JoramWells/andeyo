@@ -3,6 +3,8 @@ import Link from "next/link";
 import { Menu, Transition } from "@headlessui/react";
 import { XIcon, ChevronDownIcon } from "@heroicons/react/solid";
 import { SearchIcon } from "@heroicons/react/outline";
+import PopOver from "../components/PopOver";
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -23,11 +25,14 @@ export default function Navigation() {
             <Link href="/about">Pricing</Link>
           </p>
           <p className="link">
-            <Link href="/about">Products</Link>
-          </p>
-          <p className="link">
             <Link href="/about">Partners</Link>
           </p>
+          <p>
+            <Link href="/about">
+              <PopOver/>
+            </Link>
+          </p>
+
         </div>
         <div>
           <form>
