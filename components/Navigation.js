@@ -50,12 +50,12 @@ export default function Navigation() {
                 {({ open }) => (
                   <>
                     <div>
-                      <Menu.Button className="inline-flex justify-center w-full  shadow-sm px-4 py-2  text-gray-700  focus:outline-none  ">
-                        Register
-                        <ChevronDownIcon
+                      <Menu.Button className="inline-flex justify-center w-full font-bold   shadow-sm px-4 py-2  text-gray-700  focus:outline-none  ">
+                        Sign Up
+                        {/* <ChevronDownIcon
                           className="-mr-1  mt-1 h-5 w-5"
                           aria-hidden="true"
-                        />
+                        /> */}
                       </Menu.Button>
                     </div>
                     <Transition
